@@ -1,0 +1,331 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    /*position: relative;*/
+}
+
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.group p {
+    width: 126px;
+    height: 49px;
+    font-family: 'Shalimar', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.ig {
+    display: flex;
+    /*text-align: center;*/
+    margin: 0 auto;
+    width: 395px;
+    height: 122px;
+    font-family: 'Silk Serif', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    color: #FFFFFF;
+    /*margin: 0 400px 0 480px;*/
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/silk-serif');
+
+#desserts:checked ~ .cold-drinks,
+#desserts:checked ~ .hot-drinks,
+#desserts:checked ~ .national-foods,
+#desserts:checked ~ .eastern-cuisine,
+#desserts:checked ~ .fast-foods {
+    display: none;
+}
+
+#hot-drinks:checked ~ .desserts,
+#hot-drinks:checked ~ .cold-drinks,
+#hot-drinks:checked ~ .national-foods,
+#hot-drinks:checked ~ .eastern-cuisine,
+#hot-drinks:checked ~ .fast-foods {
+    display: none;
+}
+
+#cold-drinks:checked ~ .hot-drinks,
+#cold-drinks:checked ~ .desserts,
+#cold-drinks:checked ~ .national-foods,
+#cold-drinks:checked ~ .eastern-cuisine,
+#cold-drinks:checked ~ .fast-foods{
+    display: none;
+}
+
+#national-foods:checked ~ .hot-drinks,
+#national-foods:checked ~ .desserts,
+#national-foods:checked ~ .cold-drinks,
+#national-foods:checked ~ .eastern-cuisine,
+#national-foods:checked ~ .fast-foods{
+    display: none;
+}
+
+#eastern-cuisine:checked ~ .hot-drinks,
+#eastern-cuisine:checked ~ .desserts,
+#eastern-cuisine:checked ~ .national-foods,
+#eastern-cuisine:checked ~ .cold-drinks,
+#eastern-cuisine:checked ~ .fast-foods{
+    display: none;
+}
+
+#fast-foods:checked ~ .hot-drinks,
+#fast-foods:checked ~ .desserts,
+#fast-foods:checked ~ .national-foods,
+#fast-foods:checked ~ .eastern-cuisine,
+#fast-foods:checked ~ .cold-drinks{
+    display: none;
+}
+
+
+.lab-tab {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.labels {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Silk Serif', sans-serif;
+    /*width: 96px;*/
+    /*height: 37px;*/
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    /*background: blue;*/
+}
+.tabs {
+    color: white;
+    font-family: 'Silk Serif', sans-serif;
+    /*display: none;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.order {
+    color: white;
+    width: 82px;
+    height: 20px;
+    font-family: 'Silk Serif', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 391px;
+}
+.tabses {
+    display: none;
+}
+
+
+.sabis {
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    width: 363px;
+    height: 66px;
+    background: #1F2731;
+    transform: translateY(98px);
+    /*margin-left: 373px;*/
+}
+.sabis:hover {
+    background:#EF272C;
+    transition: .4s;
+}
+
+
+.lorem {
+    width: 512px;
+    height: 40px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 20px;
+    /*letter-spacing: 1px;*/
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.desserts {
+    margin-top: 99px;
+}
+.desserts h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0 8px 0;
+}
+
+.desserts span {
+    color: #EF272C;
+    margin-right: 68px;
+}
+
+
+
+.hot-drinks {
+    margin-top: 99px;
+}
+.hot-drinks h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0 8px 0;
+}
+
+.hot-drinks span {
+    color: #EF272C;
+    margin-right: 68px;
+}
+
+
+
+
+.cold-drinks {
+    margin-top: 99px;
+}
+.cold-drinks h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0 8px 0;
+}
+
+.cold-drinks span {
+    color: #EF272C;
+    margin-right: 68px;
+}
+
+
+
+
+.national-foods {
+    margin-top: 99px;
+}
+.national-foods h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0 8px 0;
+}
+
+.national-foods span {
+    color: #EF272C;
+    margin-right: 68px;
+}
+
+
+
+
+.eastern-cuisine {
+    margin-top: 99px;
+}
+.eastern-cuisine h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0 8px 0;
+}
+
+.eastern-cuisine span {
+    color: #EF272C;
+    margin-right: 68px;
+}
+
+
+
+.fast-foods {
+    margin-top: 99px;
+}
+.fast-foods h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0 8px 0;
+}
+
+.fast-foods span {
+    color: #EF272C;
+    margin-right: 68px;
+}
+
+.ponys {
+    margin: 196px 0 0 468px;
+}
+
+.pony {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /*box-sizing: border-box;*/
+    width: 186px;
+    height: 42px;
+    background: none;
+    border-color: red;
+letter-spacing: 1px;
+}
+
+.pony:hover {
+    background: red;
+    border: none;
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+.linit {
+    width: 144px;
+    border: 1.4px solid #EF272C;
+    margin: 0 0 8px 22px;
+}
+
+.linit1 {
+    width: 144px;
+    border: 1.4px solid #EF272C;
+    margin: 8px 0 0 22px;
+}
+
+
